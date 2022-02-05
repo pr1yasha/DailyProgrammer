@@ -1,0 +1,27 @@
+import java.lang.String;
+
+public class Main {
+    public static void main(String[] args){
+        caesar("jgorevxumxgsskx", 20);
+        caesar("dailyprogrammer", 6);
+    }
+
+    public static void caesar(String str , int change){
+        System.out.print("caesar(" + '"' + str + '"' + ", " + change + ") => " + '"');
+        for (char c : str.toCharArray()) {
+            int newval = warmup(c) + change + 96;
+            if (newval > 122){
+                newval = (newval % 122) + 96;
+            }
+            System.out.print((char) newval);
+        }
+        System.out.println('"');
+    }
+
+    public static int warmup(char c) {
+        int charVal = (int) c - 96;
+
+        return charVal;
+    }
+
+}
