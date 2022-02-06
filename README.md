@@ -1,7 +1,6 @@
 # DailyProgrammer
 
-Completed challenges from DailyProgrammer
+My completed challenges from the DailyProgrammer series.
 
-https://www.reddit.com/r/dailyprogrammer/wiki/challenges
+https://www.reddit.com/r/dailyprogrammer/wiki/challenges for more!
 
-*These solutions are far from perfect, merely training exercises I did while self learning Java
